@@ -3,3 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+footer{
+
+    background-color: gray;
+    margin-top: 500px ;
+    display: flex;
+    
+}
+
+footer div{
+    display: flex  ;
+    flex-direction: column;
+    width: 32vw;
+    padding: 5px 0;
+}
