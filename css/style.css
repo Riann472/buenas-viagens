@@ -4,6 +4,29 @@
     box-sizing: border-box;
 }
 
+.sub{
+    display: flex;
+    justify-content: center;
+}
+
+.sub21 > h1{
+    text-wrap: nowrap;
+}
+
+.sub22{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sub22 > img{
+    margin: 0.2rem;
+    width: 24vw;
+    height: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 0rem 1rem black;
+}
+
 footer{
 
     background-color: gray;
