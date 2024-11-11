@@ -6,11 +6,29 @@
 
 .sub{
     display: flex;
+    padding: 5rem;
     justify-content: center;
 }
 
 .sub21 > h1{
     text-wrap: nowrap;
+    line-height: 4rem;
+    position: relative;
+}
+
+.sub21 > h1::after{
+    content: '';
+    position: absolute;
+    border-radius: 4rem;
+    background-color: yellow;
+    height: 0.5vh;
+    width: 26vw;
+    top: 80%;
+    left: 0%;
+}
+
+.sub21 > p{
+    text-wrap: wrap;
 }
 
 .sub22{
@@ -20,11 +38,11 @@
 
 .sub22 > img{
     margin: 0.2rem;
-    width: 24vw;
+    width: 15vw;
     height: auto;
     padding: 1rem;
     border-radius: 1rem;
-    box-shadow: 0rem 0rem 1rem black;
+    box-shadow: 0rem 0.2rem 0.25rem black;
 }
 
 footer{
