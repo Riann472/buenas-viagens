@@ -14,6 +14,7 @@
     width: 100%;
     position: relative;
     bottom:  10rem;
+    left: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,6 +25,9 @@
     text-wrap: nowrap;
     line-height: 10rem;
     position: relative;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: italic;
 }
 
 .sub21 > h1::after{
@@ -31,7 +35,7 @@
     position: absolute;
     border-radius: 4rem;
     background-color: #FFAD32;
-    height: 0.5vh;
+    height: 0.75vh;
     width: 17.5vw;
     top: 80%;
     left: 0%;
@@ -40,31 +44,55 @@
 .sub21 > p{
     text-wrap: wrap;
     font-size: x-large;
+    text-align: justify;
+    color: #3C4852;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .sub21 > a{
     text-decoration: none;
-    padding: 0.5rem 0.2rem;
-    width: 5vw;
+    text-align: center;
+    margin: 1rem 0 0 0;
+    padding: 0.5rem 0.6rem;
+    width: 8vw;
     background-color: #FFAD32;
     color: white;
     border-radius: 0.4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sub21 > a:hover{
+    text-decoration: none;
+    text-align: center;
+    margin: 1rem 0 0 0;
+    padding: 0.5rem 0.6rem;
+    width: 8vw;
+    background-color: #747DFF;
+    color: #3C4852;
+    border-radius: 0.4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .sub22{
-    width: 100%;
+    width: 110%;
     display: flex;
     justify-content: end;
     flex-wrap: wrap;
 }
 
 .sub22 > img{
-    margin: 0.4rem;
-    width: 18vw;
+    margin: 0.4rem 2rem 0 0;
+    width: 20vw;
     height: auto;
     padding: 1rem;
     border-radius: 1rem;
-    box-shadow: 0rem 0.2rem 0.25rem gray;
+    box-shadow: 0rem 0.2rem 0.25rem rgb(168, 168, 168);
 }
 
 footer{
