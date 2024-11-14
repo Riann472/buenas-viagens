@@ -259,7 +259,9 @@ button:hover {
 
 footer {
 
-    background-color: gray;
+    background-color: #3C4852;
+    color:#B8C0C7;
+    
     margin-top: 500px;
     display: flex;
 
