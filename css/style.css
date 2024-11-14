@@ -1,28 +1,184 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.sub2{
+body {
+    font-family: "Poppins", sans-serif;
+
+    position: relative;
+    color: #3C4852;
+    margin: 0;
+    min-height: 100vh;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    min-height: 100vh;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/image.png');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 55px;
+    align-items: center;
+    color: #fff;
+    background-color: rgba(116, 125, 255, 0.35)
+}
+
+.fa-solid.fa-bars {
+    display: none;
+}
+
+h1 {
+    font-family: "Lobster", sans-serif;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.ha {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    gap: 3.25rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(184, 192, 199, 1);
+    cursor: pointer;
+    transition: color .3s ease-in-out;
+}
+
+a:hover {
+    color: #FFAD32;
+}
+
+nav a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+.explore {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    color: #fff;
+    position: relative;
+    flex: 1;
+}
+
+.explore h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding: 3px;
+    color: #fff;
+    outline: #767F86;
+}
+
+.form {
+    background-color: rgba(116, 125, 255, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 21.9vh;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    background-color: #fff;
+    padding: 25px 40px;
+    border-radius: 8px;
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 300;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+input {
+    padding: 13px;
+    border-radius: 8px;
+    border: 1px solid #B8C0C7;
+    outline: none;
+
+}
+
+button {
+    border: none;
+    background-color: #FFAD32;
+    color: #fff;
+    padding: 0 60px;
+    height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: background-color .3s ease-in-out;
+}
+
+button:hover {
+    background-color: #747DFF;
+}
+
+
+.sub2 {
     display: flex;
     padding: 2rem;
     justify-content: center;
 }
 
-.sub21{
+.sub21 {
     width: 100%;
     position: relative;
-    bottom:  10vh;
+    bottom: 10vh;
     left: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.sub21 > h1{
+.sub21>h1 {
     color: #747DFF;
     text-wrap: nowrap;
     line-height: 10rem;
@@ -32,7 +188,7 @@
     font-weight: 400;
 }
 
-.sub21 > h1::after{
+.sub21>h1::after {
     content: '';
     position: absolute;
     border-radius: 4rem;
@@ -43,7 +199,7 @@
     left: 0%;
 }
 
-.sub21 > p{
+.sub21>p {
     text-wrap: wrap;
     font-size: x-large;
     text-align: justify;
@@ -53,7 +209,7 @@
     font-style: normal;
 }
 
-.sub21 > a{
+.sub21>a {
     text-decoration: none;
     text-align: center;
     margin: 1rem 0 0 0;
@@ -67,7 +223,7 @@
     font-style: normal;
 }
 
-.sub21 > a:hover{
+.sub21>a:hover {
     text-decoration: none;
     text-align: center;
     margin: 1rem 0 0 0;
@@ -81,14 +237,14 @@
     font-style: normal;
 }
 
-.sub22{
+.sub22 {
     width: 110%;
     display: flex;
     justify-content: end;
     flex-wrap: wrap;
 }
 
-.sub22 > img{
+.sub22>img {
     margin: 0.4rem 2rem 0 0;
     width: 20vw;
     height: auto;
@@ -97,20 +253,20 @@
     box-shadow: 0rem 0.2rem 0.25rem rgb(168, 168, 168);
 }
 
-.sub3{
+.sub3 {
     background-image: linear-gradient(45deg, #FFE7C2, #BDACFF);
 }
 
-footer{
+footer {
 
     background-color: gray;
-    margin-top: 500px ;
+    margin-top: 500px;
     display: flex;
-    
+
 }
 
-footer div{
-    display: flex  ;
+footer div {
+    display: flex;
     flex-direction: column;
     width: 32vw;
     padding: 5px 0;
