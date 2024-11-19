@@ -259,22 +259,6 @@ button:hover {
     background-image: linear-gradient(45deg, #FFE7C2, #BDACFF);
 }
 
-footer {
-
-    background-color: #3C4852;
-    color:#B8C0C7;
-    
-    margin-top: 500px;
-    display: flex;
-
-}
-
-footer div {
-    display: flex;
-    flex-direction: column;
-    width: 32vw;
-    padding: 5px 0;
-}
 
  .clientes_carrosel{
 
@@ -300,4 +284,54 @@ footer div {
     gap: 1.2rem;
     max-width: 900px;
 
+}
+
+.char img {
+    width: 232px;
+    height: 232px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 173, 50, 1);
+    display: none;
+    object-fit: cover;
+    transition: opacity 0.5s ease;
+}
+
+.char .active{
+    display: block;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    justify-content: space-between;
+
+}
+
+.slide button {
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(184, 192, 199, 1);
+}
+
+.slide span {
+    font-weight: 300;
+}
+
+footer {
+
+    background-color: #3C4852;
+    color:#B8C0C7;
+    
+    margin-top: 150px;
+    display: flex;
+
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    width: 32vw;
+    padding: 5px 0;
 }
