@@ -272,9 +272,21 @@ button:hover {
     justify-content: space-around;
 }
 
+.card1, .card2, .card3{
+    margin: 0.4rem 4rem 0 0;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 0rem 0.2rem 0.25rem rgb(168, 168, 168);
+}
+
+.card1, .card2, .card3 > p{
+    width: 80%;
+}
+
 .card1 > img{
-    width: 25vw;
-    height: 25vh;
+    width: 20vw;
+    height: auto;
 }
 
 .cards2{
