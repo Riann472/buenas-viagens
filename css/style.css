@@ -260,11 +260,14 @@ button:hover {
     background-image: linear-gradient(45deg, #FFE7C2, #BDACFF);
     flex-direction: column;
     justify-content: center;
+    height: 150vh;
 }
 
 .sub31{
     display: flex;
     justify-content: center;
+    color: #747DFF;
+    margin: 0 0 4rem 0;
 }
 
 .cards1{
@@ -273,18 +276,31 @@ button:hover {
 }
 
 .card1, .card2, .card3{
-    margin: 0.4rem 4rem 0 0;
+    margin: 0.4rem 2rem;
     background-color: white;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1.5rem;
     box-shadow: 0rem 0.2rem 0.25rem rgb(168, 168, 168);
 }
 
-.card1, .card2, .card3 > p{
-    width: 80%;
+.card1 > p, .card2 > p, .card3 > p{
+    width: 60%;
 }
 
-.card1 > img{
+.card1 > a, .card2 > a, .card3 > a{
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem 0.6rem;
+    width: 8vw;
+    background-color: #FFAD32;
+    color: white;
+    border-radius: 0.4rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.card1 > img, .card2 > img, .card3 > img{
     width: 20vw;
     height: auto;
 }
@@ -292,11 +308,6 @@ button:hover {
 .cards2{
     display: flex;
     justify-content: space-around;
-}
-
-.card2 > img{
-    width: 25vw;
-    height: 25vh;
 }
 
 
