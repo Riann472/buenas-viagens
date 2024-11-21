@@ -390,3 +390,30 @@ footer div {
     width: 32vw;
     padding: 5px 0;
 }
+
+.parceiros{
+
+    font-family:"Poppins";
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.2rem;
+    
+}
+
+.imgs_redes{
+
+
+}
+
+.sobre{
+
+    gap: 1.2rem;
+}
+
+.parceiros{
+
+    display: flex;
+    flex-direction:column;
+}
