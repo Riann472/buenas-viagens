@@ -306,7 +306,7 @@ button:hover {
 }
 
 
-.sub32 img{
+.sub32 img {
     width: 100%;
     height: 400px;
 }
@@ -409,24 +409,24 @@ footer div {
 
 }
 
-footer h1{
+footer h1 {
 
     font-size: 26px;
 }
 
-footer h2{
+footer h2 {
 
     font-size: 20px;
 }
 
-footer p{
+footer p {
 
     font-size: 15px;
     font-weight: normal;
     gap: 1.5rem;
 }
 
-footer ul{
+footer ul {
 
     display: flex;
     flex-direction: column;
@@ -434,10 +434,11 @@ footer ul{
     font-weight: normal;
     gap: 0.3rem;
 }
+
 .sobre {
 
     gap: 1.2rem;
-    
+
 }
 
 .parceiros {
@@ -446,7 +447,7 @@ footer ul{
     flex-direction: column;
 }
 
-.redes{
+.redes {
 
     font-family: "Poppins";
     display: flex;
@@ -456,16 +457,16 @@ footer ul{
 }
 
 footer i {
-   
+
     padding: 10px;
     border: 2px solid #B8C0C7;
     border-radius: 100%;
-    font-size: 30px;
+    font-size: 20px;
+    cursor: pointer;    
 
-    
 }
 
-.imgs_redes{
+.imgs_redes {
 
     display: flex;
     flex-direction: row;
@@ -474,7 +475,7 @@ footer i {
     gap: 10px;
 }
 
-.e-mail input{
+.e-mail input {
 
     border-radius: 0;
     width: 450px;
@@ -484,16 +485,16 @@ footer i {
 
 }
 
-.redes button{
-    
+.redes button {
+
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 50px;
-    font-family:"Poppins";
+    font-family: "Poppins";
 }
 
-.e-mail{
+.e-mail {
     flex-direction: row;
     display: flex;
     gap: 1rem;
